@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width", initial-scale="1.0">
+        <title>My Cooking Recipes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>WELCOME TO MY RECIPE WEBSITE</h1>
+            <p>
+                <h3>Delicious Dishes Made Simple</h3>
+            </p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home"></a>Home</li>
+                <li><a href="#recepies">Recipes</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="section">
+            <h2>WELCOME</h2>
+            <p>Discover easy-to-follow recipes for everyday cooking. From quick snack to full  meals, we've got you covered.</p>
+            <button onclick="alert('Thanks for visiting!')">Learn More</button>
+        </div>
+        <div id="recipes" class="section">
+            <h2>POPULAR RECIPES</h2>
+            <ol>
+                <li>Vegetable Fried Rice</li>
+                <li>Chicken Biryani</li>
+                <li>Chocolate Brownies</li>
+            </ol>
+            <ul>
+                <li><a href="https://stock.adobe.com/search?k=vegetable+fried+rice">View Recipe for Vegetable Fried Rice</a></li>
+                <li><a href="https://stock.adobe.com/search?k=biryani">View Recipe for Chicken Biryani</a></li>
+                <li><a href="https://stock.adobe.com/in/search?k=brownies">View Recipe for Chocolate Brownies</a></li>
+            </ul>
+            <button onclick="location.href='#gallery'">See Recipe Images</button>
+        </div>
+        <div id="gallery" class="section">
+            <h2>GALLERY</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNPwIjsEARR3sI92Eeqao0gv_edGHlNUarfg&s" alt="Vegetable Fried Rice" width="300">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg5vkaQ6daQ9C5oOCLR4uenTPt6-BjWd9QiA&s" alt="Chicken Biryani" width="300">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7MErwBZfpNUu8ThY0QODL15hWMOYLuZoapA&s" alt="Chocolate Brownies" width="300">
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>For inquiries, reach us at: <a href="mailto:info@myrecipes.com">info@myrecipes.com</a></p>
+            <button onclick="location.href='mailto:myrecipes.com'">Email Us</button>
+        </div>
+        <footer>
+            <p>&copy;2026 My Cooking Recipes</p>
+        </footer>
+    </body>
+</html>
